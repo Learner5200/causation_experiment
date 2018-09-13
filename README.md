@@ -1,17 +1,17 @@
-** Causation Experiment **
+## Causation Experiment
 
 This project, written in Python, was submitted as coursework for UCL's MSc Cognitive and Decision Sciences.
 
-**** (1) Experiment Overview
+#### (1) Experiment Overview
 This experiment is a replication of Bechlivanidis and Lagnado (2013). As those authors review, several experiments have previously shown influences of causal beliefs on perception. The current experiment is concerned with the effect of causal beliefs on the perceived temporal order of events.
 
-**** (2) Description of Procedure
+#### (2) Description of Procedure
 
 Subjects are randomly assigned to two conditions, experimental and control. Subjects in the experimental condition play four ‘training’ rounds in an interactive physics world, featuring different shapes with different causal properties. Subjects can move certain shapes into different positions, and upon pressing play, the objects are moved by their own acceleration, or by the forces exerted by other objects (blue ‘balls’). The aim is to get a yellow triangle (‘target’) into a purple box (‘goal’). On later trials, the target begins as a red square, and must be turned into a yellow triangle by colliding a green square (‘key’) with a black platform (‘lock’), before it will be accepted by the goal. A reset button allows subjects to reset a trial if they fail to get the target into the goal. In the fifth ‘test’ round, subjects cannot move any of the shapes, and are asked to press play and observe the events that occur. In violation of the causal rules established in the training rounds, the target square enters the goal and becomes a triangle shortly before the key collides with the lock. Subjects in the control condition are not given interactive training rounds, and instead only view the final clip.
 
 All subjects are then asked to report the perceived order of the different events, explain their answers, and attribute the red square’s transformation into a triangle to a cause.
 
-**** (3) Experimenter’s Manual
+#### (3) Experimenter’s Manual
 
 To run the experiment with default settings, simply open and run ‘main.py’. This will launch a window where subjects will be asked to enter demographics before playing the interactive game described above and, finally, reporting what they saw and being debriefed.
 
